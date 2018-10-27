@@ -1,5 +1,5 @@
-# Better Pledge 🤤 + 🍜 = 😃
-A web platform to connect Donors and Beneficiaries for food distribution
+# Better Pledge 
+A web platform to connect Donors and Beneficiaries for food distribution. An implementation of simple formula 🤤 + 🍜 = 😃
 
 ## Instructions To Contribute
 All the feature request, bugs, and all sorts of task will be posted as an issue on the [issues page](https://github.com/gscdit/Better-Pledge/issues). Issues might or might not be assigned to people while creation. If a issue haven't already been assigned to someone, feel free to start working on it, only after commenting on the issue and getting it assigned to you. 
