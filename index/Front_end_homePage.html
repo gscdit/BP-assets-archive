@@ -1,0 +1,298 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+<style>
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana;
+    transform: translate(-50%, -50%);
+}
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: grey;
+    font-size: 25px;
+    font-family: Verdana;
+    transform: translate(-50%, -50%);
+}
+.fontsty {
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana;
+}
+.detailsPane{
+  border: 5px;
+  font-family: Verdana;
+  font-size: 20px;
+  padding:19px 18px 10px 10px;
+  margin: 30px 400px 30px 400px;
+  text-align: center;
+  border-style: none;
+  border-radius: 2px;
+  background-color: white;
+}
+.LoginButton{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+li{
+  transition: opacity 0.2s;
+}
+.sibling-fade:hover li:not(:hover){
+  opacity: 0.5;
+}
+.first{
+  background-image: url(image1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+/*popup form */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 10px 20px 70px;
+    margin: 30px 30px 30px 10px ;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="gSc.jpg" width="30" height="30" class="d-inline-block align-top"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarContent" aria-expanded="false">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse sibling-fade navbar-collapse" id="navbarContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">How it Works?<span class="sr-only">N</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Blog</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      </ul>
+      <span>
+             <a class="nav-link" href="#">Login</a>
+      </span>
+          <a class="nav-link" href="#">SignUp</a>
+      </span>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+      <img src=image1.jpg height=90% width=100%>
+      <div class="centered">Your extra food can be a meal for someone needy.</div>
+      <div class="centered2">You are a few steps away from gifting a meal.</div>
+      <div class="LoginButton"><button type="button" class="btn btn-primary btn-md" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>  </div>
+  </div>
+  </div>
+  <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+         <div class="card-body">
+           <h5 class="card-title">Our Work</h5>
+           <p class="card-text">Just take a look how our partners are helping people around the city.</p>
+           <a href="#" class="btn btn-primary">Click Here</a>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+         <div class="card-body">
+           <h5 class="card-title">Donate now.</h5>
+           <p class="card-text">Start helping by clicking here.</p>
+           <a href="#" class="btn btn-primary">Gift Now</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+         <div class="card-body">
+           <h5 class="card-title">Support Us.</h5>
+           <p class="card-text">Help us to improve this platform.</p>
+           <a href="#" class="btn btn-primary">Help us</a>
+        </div>
+      </div>
+      </div>
+  </div>
+  <div class="row" style="background-color:Azure;">
+   <div class="col-md-12">
+     <div class="fontsty">Your Impact till now</div>
+     <div class="detailsPane">you have gifted: <p id="">18002 meals</p></div>
+  </div>
+</div>
+<div class="row" style="background-color:MistyRose;">
+<div class="col-md-12">
+<div class="fontsty">Our Latest Blog.</div>
+<div class="card" style="width: 18rem;">
+ <div class="card-body">
+   <h5 class="card-title">Title of the Latest Blog</h5>
+   <p class="card-text">We are accompanied by many people in this mission.
+   Before donating please go through the rules.. and we hope you don't wish to poison someone.
+ Happy Gifting.</p>
+   <a href="#" class="btn btn-primary">See more...</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+  //PopUp form details
+  <div id="id01" class="modal">
+
+    <form class="modal-content animate" action="ayushijs.jsp">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="gSc.jpg" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="pswrd" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
