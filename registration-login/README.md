@@ -1,6 +1,9 @@
 # Instructions
 Signin.html file uses external files - signin.css,  style.css , user.png
+
 Register.html file uses external files-style2.css, 7.jpg
+
+footer.html files uses sample2.jpg
 
 
 ## Layout
