@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Quicksand" rel="stylesheet">
+
+
+    <!-- Style -->
+    <style>
+        .div1{
+            margin-top: 5%;
+        }
+        #title{
+            font-size: 20px;
+            <!-- font-family: 'Titillium Web', sans-serif; -->
+            font-family: 'Fjalla One', sans-serif;
+        }
+        .div2{
+            margin-top: 4rem;
+        }
+        .div3{
+            margin-top: 1rem;
+        }
+        .div4{
+            margin-top: 5rem;
+        }
+        .list{
+            margin-top: 0.5rem;
+        }
+        .but{
+            height: 35px;
+            width: 40px;
+            font-size: 15px;
+            float: right;
+        }
+        strong{
+            font-weight: 600;
+        }
+        .sub{
+            margin-left: 0.2rem;
+            margin-right: 0.2rem;
+            float: right;
+        }
+        hr{
+            border: 0;
+            height: 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+
+    <title>Order Page</title>
+</head>
+
+<body>
+    <div class = "container div1">
+        <h4 id="title"> Place your order. </h4>
+        <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+        <hr>
+    </div>
+    <!-- order details -->
+    <div class = "container div2">
+        <div class="card border-primary">
+          <h4 class="card-header text-primary bg-transparent">Available Food</h4>
+          <div class="card-body">
+              <div class="card list">
+                <div class="card-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        <div>
+                            <h6 class="card-title">Item Name 1</h6>
+                            <p class="card-text text-muted">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                      </label>
+                      <button type="button" class="btn btn-outline-primary but" ><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+              </div>
+              <div class="card list">
+                  <div class="card-body">
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                          <label class="form-check-label" for="defaultCheck2">
+                              <div>
+                                  <h6 class="card-title">Item Name 2</h6>
+                                  <p class="card-text text-muted">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  </p>
+                              </div>
+                          </label>
+                          <button type="button" class="btn btn-outline-primary but" ><i class="fas fa-shopping-cart"></i></button>
+                      </div>
+                  </div>
+              </div>
+              <div class="card list">
+                <div class="card-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                      <label class="form-check-label" for="defaultCheck3">
+                          <div>
+                              <h6 class="card-title">Item Name 3</h6>
+                              <p class="card-text text-muted">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                              </p>
+                          </div>
+                      </label>
+                      <button type="button" class="btn btn-outline-primary but"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- sumbit button -->
+    <div class = "container div3">
+        <input class="btn btn-primary  btn-sm sub" type="submit" value="Submit">
+        <button type="button" class="btn btn-outline-primary btn-sm sub ">Cancel</button>
+    </div>
+
+    <!-- donor's details -->
+    <div class = "container div4">
+        <div class="card border-primary">
+          <h4 class="card-header text-primary bg-transparent">Donor's Details</h4>
+          <div class="card-body">
+            <!-- <h4 class="card-title">Special title treatment</h4> -->
+            <p class="card-text"> <span> <strong> Name: </strong> </span> Lorem ipsum.</p>
+            <p class="card-text"> <span> <strong> Address: </strong> </span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p class="card-text"> <span> <strong> Contact No.: </strong> </span> 7894561230</p>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
